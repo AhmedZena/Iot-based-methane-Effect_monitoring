@@ -385,4 +385,4 @@ async function allCharts() {
 // make temp1 show after 1 min
 setTimeout(() => {
   checkTest1();
-}, 5000);
+}, 1000);
