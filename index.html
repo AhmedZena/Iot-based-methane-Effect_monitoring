@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#home" id="logo">IOT porject</a>
+                <i class="fas fa-bars" id="ham-menu"></i>
+                <ul id="nav-bar">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#Recomendation">Recomendation</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="mainContainer">
+            <img class="demo-bg" src="pics/gas background.jpg">
+            <div class="container">
+                <h1>
+                    IOT-Based Methane <br>Effect Monitoring
+                </h1>
+
+                <div class="introduction">
+
+                    <p>
+                        Greenhouse gases especially methane gas CH4 has a negative impact on global warming. It is
+                        noticed that rice fields and
+                        wet lands are major sources of methane emissions. Therefore, this project presets the effect of
+                        methane produced from
+                        soil on raising the global temperature and decreasing humidity by real-time monitoring using
+                        internet of things
+                        (IOT) technology.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="twoButtons">
+            <button id="resultButton">
+                Result
+            </button>
+            <button id="concButton">
+                Conclusion
+            </button>
+        </div>
+
+
+        <div class="allCharts hidden ">
+            <div class="divChart">
+                <canvas id="myChart1" style="width:100%"></canvas>
+            </div>
+            <div class="divChart">
+                <canvas id="myChart2" style="width:100%"></canvas>
+            </div>
+            <div class="divChart">
+                <canvas id="myChart3" style="width:100%"></canvas>
+            </div>
+            <div class="divChart">
+                <canvas id="myChart4" style="width:100%"></canvas>
+            </div>
+            <div class="divChart">
+                <canvas id="myChart5" style="width:100%"></canvas>
+            </div>
+        </div>
+
+        <div class="allCharts2 hidden">
+            <div class="divChart2">
+                <canvas id="myChart6" style="width:100%"></canvas>
+            </div>
+            <div class="divChart2">
+                <canvas id="myChart7" style="width:100%"></canvas>
+            </div>
+        </div>
+
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
+
+</html>
